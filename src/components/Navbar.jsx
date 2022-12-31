@@ -49,8 +49,8 @@ const Navbar = ({ setMenu, menu }) => {
               href="https://www.tiktok.com/@danosdetailing?_t=8YWPjj4Ulna&_r=1"
             >
               <FaTiktok className="outline outline-1 outline-white rounded p-0.5 hover:scale-[2] peer duration-300 text-white z-10" />
-              <FaTiktok className="hover:scale-[2] peer-hover:scale-[2] p-0.5 duration-300 text-blue-300 absolute top-0 z-[-1] translate-y-[-1px] translate-x-[-1px] peer-hover:translate-y-[-2px] peer-hover:translate-x-[-2px]" />
-              <FaTiktok className="hover:scale-[2] peer-hover:scale-[2] p-0.5 duration-300 text-pink-500 absolute top-0 z-[-1] translate-y-[1px] translate-x-[1px] peer-hover:translate-y-[2px] peer-hover:translate-x-[2px]" />
+              <FaTiktok className="hover:scale-[2] peer-hover:scale-[2] p-0.5 duration-300 text-blue-300 absolute top-0 z-[-1] translate-y-[-1px] translate-x-[-1px] peer-hover:translate-y-[-2px] peer-hover:translate-x-[-2px] opacity-0 sm:opacity-100" />
+              <FaTiktok className="hover:scale-[2] peer-hover:scale-[2] p-0.5 duration-300 text-pink-500 absolute top-0 z-[-1] translate-y-[1px] translate-x-[1px] peer-hover:translate-y-[2px] peer-hover:translate-x-[2px] opacity-0 sm:opacity-100" />
             </a>
           </li>
         </ol>
