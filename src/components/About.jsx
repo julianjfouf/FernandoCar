@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="py-20 flex flex-col justify-center items-center container mx-auto"
+      className="py-20 px-4 flex flex-col justify-center items-center container mx-auto"
     >
       <p className="section__subtitle">BACKGROUND</p>
       <h1 className="md:text-6xl text-4xl font-bold text-gray-900 mb-2">
@@ -18,8 +18,12 @@ const About = () => {
           alt=""
         />
         <p className="max-w-[400px] md:!text-xl md:!p-8 p-4 md:!leading-[48px] leading-[28px]">
-          At 17 years old, Fernando Zepeda founded Dano's Detailing as a way to
-          raise money for college expenses. Offering
+          At 17 years old, Fernando Zepeda founded{" "}
+          <span className="text-yellow-500 font-semibold">
+            {" "}
+            Dano's Detailing
+          </span>{" "}
+          as a way to raise money for college expenses. Offering
           <span className="text-yellow-500 font-semibold">
             {" "}
             premium detailing services
