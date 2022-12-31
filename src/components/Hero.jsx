@@ -18,7 +18,7 @@ const Hero = ({ setMenu, menu }) => {
         >
           CAR DETAILING
         </p>
-        <h1 className="text-white text-6xl z-10 text-center">
+        <h1 className="text-white md:text-6xl text-4xl z-10 text-center">
           Your car is in good hands at <br />
         </h1>
       </div>
