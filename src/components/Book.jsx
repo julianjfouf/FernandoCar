@@ -2,20 +2,6 @@ import React, { useState, useEffect } from "react";
 import { FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Book = () => {
-  const [show, setShow] = useState(false);
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("showw");
-        setShow(true);
-      }
-    });
-  });
-
-  useEffect(() => {}, [show]);
-
-  const hiddenElements = document.querySelectorAll(".hidee");
-  hiddenElements.forEach((el) => observer.observe(el));
   return (
     <div
       id="book"
@@ -29,7 +15,7 @@ const Book = () => {
         We'd love to work with you!
       </p>
       <div className="bg-white md:p-16 p-4 rounded-lg mt-10">
-        <div className="p-2">
+        <div className="p-2 text-center md:text-start">
           <span className="leading-3 tracking-widest font-semibold text-yellow-600">
             EMAIL
           </span>
