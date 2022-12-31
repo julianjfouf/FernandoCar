@@ -5,7 +5,7 @@ const Book = () => {
   return (
     <div
       id="book"
-      className="flex flex-col justify-center h-screen items-center bg-black text-white"
+      className="flex p-4 flex-col relative justify-center h-screen items-center bg-black text-white"
     >
       <p className="section__subtitle">BOOKING</p>
       <h1 className="md:text-6xl text-4xl font-bold mb-2 text-center">
@@ -64,6 +64,7 @@ const Book = () => {
           </p>
         </div>
       </div>
+      <div className="absolute bottom-20 text-white md:text-md text-sm px-4 text-center">* Please note that we are not liable for any swirls, scratches, halos, leather damages, cloth damages, etc. prior to services or after services. *</div>
     </div>
   );
 };

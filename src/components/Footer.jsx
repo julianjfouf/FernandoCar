@@ -24,7 +24,7 @@ const Footer = () => {
           </li>
         </ol>
         <p className="text-center">
-          &copy; Dano's Detailing | All Rights Reserved <br /> Powered by Julian
+          &copy; Dano's Detailing | All Rights Reserved <br /> Website powered by Julian
           Jfouf
         </p>
       </div>

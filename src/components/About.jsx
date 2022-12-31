@@ -12,13 +12,8 @@ const About = () => {
         About Us
       </h1>
       <div className="flex justify-center flex-col md:!flex-row mx-auto md:!gap-8 gap-2 bg-black text-white md:!p-8 p-4 pt-8 items-center md:!my-24 my-12 rounded shadow-lg">
-        <img
-          className="md:!max-w-[120px] max-w-[80px] rounded shadow-lg border-1 border border-slate-500"
-          src="https://cdn.discordapp.com/attachments/699485073509974056/1056154600014610474/About_me_pic.png"
-          alt=""
-        />
-        <p className="max-w-[400px] md:!text-xl md:!p-8 p-4 md:!leading-[48px] leading-[28px]">
-          At 17 years old, Fernando Zepeda founded{" "}
+        <p className="max-w-[480px] md:!text-xl md:!p-8 p-4 md:!leading-[48px] leading-[28px]">
+          At 17 years old, Fernando Z founded{" "}
           <span className="text-yellow-500 font-semibold">
             {" "}
             Dano's Detailing
