@@ -43,7 +43,8 @@ const About = () => {
             {" "}
             utmost care
           </span>{" "}
-          for both you & your car.
+          for both you & your car. Currently servicing cars in Tracy, CA and
+          surrounding areas.
         </p>
       </div>
       {/* <div
