@@ -102,7 +102,7 @@ const Services = () => {
                 </h1>
               </div>
               <div className="flex p-10 gap-20 flex-wrap justify-center">
-                <Package
+                {/* <Package
                   title="Express Detail"
                   description={[
                     "Foam Bath",
@@ -117,8 +117,16 @@ const Services = () => {
                   cost={60}
                   setSelected={setSelected}
                   selected={selected === 1}
-                />
+                /> */}
                 <Package
+                  title="Exterior Wash and Wax"
+                  description="Exterior deep clean that makes your paint pop and protects it against harsh weather. Whether you want to protect your vehicle against the elements or restore the paint back to new, a wash and wax would be perfect."
+                  price={140}
+                  id={1}
+                  setSelected={setSelected}
+                  selected={selected === 1}
+                />
+                {/* <Package
                   title="Clay Wax & Seal"
                   description={[
                     "Foam Bath",
@@ -132,8 +140,16 @@ const Services = () => {
                   price={150}
                   setSelected={setSelected}
                   selected={selected === 2}
-                />
+                /> */}
                 <Package
+                  title="Full Interior Detail"
+                  description="The Full Interior Cleaning service is meant to get your interior back to the best condition possible. This package restore the interior back to new. * Any stains or pet hair removal affects pricing *"
+                  id={2}
+                  price={150}
+                  setSelected={setSelected}
+                  selected={selected === 2}
+                />
+                {/* <Package
                   title="Full Interior or Exterior"
                   description={[
                     "6-8 mo. Paint Sealant",
@@ -146,6 +162,14 @@ const Services = () => {
                   ]}
                   id={3}
                   price={75}
+                  setSelected={setSelected}
+                  selected={selected === 3}
+                /> */}
+                <Package
+                  title="Full Exterior Detail"
+                  description=" It’s not rocket science to wash a car, but there are methods that produce better results than your typical $10 car wash. A full exterior detail after a thorough deep clean would leave a waxed, paint enhanced, paint-protected, tire-shined/dressed, full paint decontamination and a protective coating against water spots, tree sap, and bird droppings."
+                  id={3}
+                  price={160}
                   setSelected={setSelected}
                   selected={selected === 3}
                 />
@@ -458,12 +482,11 @@ const Services = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="text-center text-sm text-yellow-600 py-5">
-                    * prices and times are subject to vary depending on vehicle
-                    type
-                  </p>
                 </>
               ) : null}
+              <p className="text-center text-sm text-yellow-600 py-5">
+                * prices and times are subject to vary depending on vehicle type
+              </p>
             </div>
           </div>
         </div>

@@ -9,26 +9,33 @@ const Package = ({ title, description, selected, id, setSelected, price }) => {
       }`}
     >
       <h1
-        className={`md:text-4xl text-3xl font-bold ${selected ? `!text-yellow-600` : null}`}
+        className={`md:text-4xl text-3xl font-bold ${
+          selected ? `!text-yellow-600` : null
+        }`}
       >
         {title}
 
         <span
-          className={`absolute left-4 p-2 top-[-30px] bg-white ${selected ? `!text-yellow-600` : null}`}
+          className={`absolute left-4 p-2 top-[-30px] bg-white ${
+            selected ? `!text-yellow-600` : null
+          }`}
         >
           {" $"}
           {price}
         </span>
       </h1>
       <ul
-        className={`list-disc md:text-xl ${selected ? `!text-amber-500` : null}`}
+        className={`list-disc md:text-xl flex justify-center ${
+          selected ? `!text-amber-500` : null
+        }`}
       >
-        <span className="font-semibold ml-3">Package Includes:</span>
-        {description.map((point, index) => (
+        {/* <span className="font-semibold ml-3">Package Includes:</span> */}
+        {/* {description.map((point, index) => (
           <li key={index} className="block ml-6 max-w-xs">
             • {point}
           </li>
-        ))}
+        ))} */}
+        <li className="block max-w-[320px]">{description}</li>
       </ul>
     </div>
   );
