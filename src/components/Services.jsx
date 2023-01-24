@@ -119,9 +119,13 @@ const Services = () => {
                   selected={selected === 1}
                 /> */}
                 <Package
-                  title="Exterior Wash and Wax"
+                  title="Full Exterior Detail"
                   description="Exterior deep clean that makes your paint pop and protects it against harsh weather. Whether you want to protect your vehicle against the elements or restore the paint back to new, a wash and wax would be perfect."
-                  price={140}
+                  top="Vehicles:"
+                  small="Small - starting at $100"
+                  medium="Medium - starting at $120"
+                  large="Large - starting at $140"
+                  price={120}
                   id={1}
                   setSelected={setSelected}
                   selected={selected === 1}
@@ -145,7 +149,11 @@ const Services = () => {
                   title="Full Interior Detail"
                   description="The Full Interior Cleaning service is meant to get your interior back to the best condition possible. This package restore the interior back to new. * Any stains or pet hair removal affects pricing *"
                   id={2}
-                  price={150}
+                  price={140}
+                  top="Vehicles:"
+                  small="Small - starting at $120"
+                  medium="Medium - starting at $140"
+                  large="Large - starting at $160"
                   setSelected={setSelected}
                   selected={selected === 2}
                 />
@@ -166,10 +174,14 @@ const Services = () => {
                   selected={selected === 3}
                 /> */}
                 <Package
-                  title="Full Exterior Detail"
-                  description=" It’s not rocket science to wash a car, but there are methods that produce better results than your typical $10 car wash. A full exterior detail after a thorough deep clean would leave a waxed, paint enhanced, paint-protected, tire-shined/dressed, full paint decontamination and a protective coating against water spots, tree sap, and bird droppings."
+                  title="Premium Detail"
+                  description=" It’s not rocket science to wash a car, but there are methods that produce better results than your typical $10 car wash. A full exterior detail after a thorough deep clean would leave a waxed, paint enhanced, paint-protected, tire-shined/dressed, full paint decontamination and a protective coating against water spots, tree sap, and bird droppings. Along with all the additional benefits of a deep interior cleaning that enhances from UV ray protection to stain removals."
                   id={3}
-                  price={160}
+                  price={230}
+                  top="Vehicles:"
+                  small="Small - starting at $210"
+                  medium="Medium - starting at $230"
+                  large="Large - starting at $250"
                   setSelected={setSelected}
                   selected={selected === 3}
                 />

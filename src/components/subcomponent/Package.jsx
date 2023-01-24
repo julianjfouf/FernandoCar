@@ -1,6 +1,17 @@
 import React from "react";
 
-const Package = ({ title, description, selected, id, setSelected, price }) => {
+const Package = ({
+  title,
+  description,
+  selected,
+  id,
+  setSelected,
+  price,
+  top,
+  small,
+  medium,
+  large,
+}) => {
   return (
     <div
       onClick={() => setSelected(id)}
@@ -15,17 +26,17 @@ const Package = ({ title, description, selected, id, setSelected, price }) => {
       >
         {title}
 
-        <span
+        {/* <span
           className={`absolute left-4 p-2 top-[-30px] bg-white ${
             selected ? `!text-yellow-600` : null
           }`}
         >
           {" $"}
           {price}
-        </span>
+        </span> */}
       </h1>
       <ul
-        className={`list-disc md:text-xl flex justify-center ${
+        className={`list-disc md:text-xl flex flex-col justify-center items-center ${
           selected ? `!text-amber-500` : null
         }`}
       >
@@ -36,6 +47,9 @@ const Package = ({ title, description, selected, id, setSelected, price }) => {
           </li>
         ))} */}
         <li className="block max-w-[320px]">{description}</li>
+        <li className="block max-w-[320px] my-4 text-left w-full">
+          {top} <br /> {small} <br /> {medium} <br /> {large}
+        </li>
       </ul>
     </div>
   );
