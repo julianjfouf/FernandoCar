@@ -5,13 +5,13 @@ const Book = () => {
   return (
     <div
       id="book"
-      className="flex p-4 flex-col relative justify-center h-screen items-center bg-black text-white"
+      className="flex p-12 flex-col relative justify-center items-center bg-black text-white min-h-screen"
     >
       <p className="section__subtitle">BOOKING</p>
       <h1 className="md:text-6xl text-4xl font-bold mb-2 text-center">
         Book an Appointment!
       </h1>
-      <p className="text-[#718096] font-semibold text-[18px] my-5">
+      <p className="text-[#718096] font-semibold text-[18px] my-5 text-center">
         We'd love to work with you!
       </p>
       <div className="bg-white md:p-16 p-4 rounded-lg mt-10">
@@ -64,7 +64,11 @@ const Book = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-20 text-white md:text-md text-sm px-4 text-center">* Please note that we are not liable for any swirls, scratches, halos, leather damages, cloth damages, etc. prior to services or after services. *</div>
+      <div className="my-16 bottom-20 text-white md:text-md text-sm px-4 text-center">
+        * Please note that we are not liable for any swirls, scratches, halos,
+        leather damages, cloth damages, etc. prior to services or after
+        services. *
+      </div>
     </div>
   );
 };
